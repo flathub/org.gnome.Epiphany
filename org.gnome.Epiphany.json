@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Epiphany",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.26",
+    "runtime-version": "3.28",
     "branch": "stable",
     "sdk": "org.gnome.Sdk",
     "command": "epiphany",
@@ -41,25 +41,14 @@
                 "*.la", "*.a"],
     "modules": [
         {
-            "name": "gnome-desktop",
-            "config-opts": ["--disable-debug-tools", "--disable-udev"],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-desktop/3.26/gnome-desktop-3.26.1.tar.xz",
-                    "sha256": "92fa697af986fb2c6bc6595f0155c968c17e5d1981a50584ff4fb6fd60124e2f"
-                }
-            ]
-        },
-        {
             "name": "epiphany",
             "buildsystem": "meson",
             "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/epiphany/3.26/epiphany-3.26.6.tar.xz",
-                    "sha256": "01b16aa55d312ae0f17d3136f90d8c68ac748715f119412fb1917023c6f630a8"
+                    "url": "https://download.gnome.org/sources/epiphany/3.28/epiphany-3.28.0.1.tar.xz",
+                    "sha256": "7154b06837655771f2240bf378fb8ba2315ae07dbc6f45d160ca29cd6d377808"
                 }
             ]
         }
