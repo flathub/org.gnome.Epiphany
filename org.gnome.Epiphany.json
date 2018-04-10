@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/epiphany/3.28/epiphany-3.28.0.1.tar.xz",
-                    "sha256": "7154b06837655771f2240bf378fb8ba2315ae07dbc6f45d160ca29cd6d377808"
+                    "url": "https://download.gnome.org/sources/epiphany/3.28/epiphany-3.28.1.tar.xz",
+                    "sha256": "ad2264d51b3ac88164fdd944488144a00512741dc791bc3ec14d75ae29cf7d7f"
                 }
             ]
         }
