@@ -1,4 +1,3 @@
-#
 app-id: org.gnome.Epiphany
 runtime: org.gnome.Platform
 runtime-version: '3.28'
