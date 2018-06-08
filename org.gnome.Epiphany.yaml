@@ -1,0 +1,43 @@
+app-id: org.gnome.Epiphany
+runtime: org.gnome.Platform
+runtime-version: 3.28
+branch: stable
+sdk: org.gnome.Sdk
+command: epiphany
+finish-args:
+  - --share=ipc
+  - --socket=x11
+  - --socket=wayland
+  - --device=dri
+  - --share=network
+  - --socket=pulseaudio
+  - --system-talk-name=org.freedesktop.GeoClue2
+  - --filesystem=xdg-run/dconf
+  - --filesystem=~/.config/dconf:ro
+  - --talk-name=ca.desrt.dconf
+  - --env=DCONF_USER_CONFIG_DIR=.config/dconf
+  - --talk-name=org.freedesktop.secrets
+  - --talk-name=org.freedesktop.Notifications
+  - --filesystem=xdg-download
+build-options:
+  cflags: -O2 -g
+  cxxflags: -O2 -g
+  env:
+    V: '1'
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /share/pkgconfig
+  - /share/aclocal
+  - /man
+  - /share/man
+  - /share/gtk-doc
+  - '*.la'
+  - '*.a'
+modules:
+  - name: epiphany
+    buildsystem: meson
+    sources:
+      - type: archive
+        url: https://download.gnome.org/sources/epiphany/3.28/epiphany-3.28.3.1.tar.xz
+        sha256: baa4e9f0ac0b1e95fa2027af796859114f448f0f274976c30c9b8db734c6402d
