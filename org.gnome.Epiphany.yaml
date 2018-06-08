@@ -1,6 +1,6 @@
 app-id: org.gnome.Epiphany
 runtime: org.gnome.Platform
-runtime-version: 3.28
+runtime-version: '3.28'
 branch: stable
 sdk: org.gnome.Sdk
 command: epiphany
