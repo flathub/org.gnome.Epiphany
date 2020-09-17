@@ -1,7 +1,7 @@
 {
     "app-id" : "org.gnome.Epiphany",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.36",
+    "runtime-version" : "3.38",
     "sdk" : "org.gnome.Sdk",
     "command" : "epiphany",
     "finish-args" : [
@@ -23,8 +23,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/libdazzle/3.36/libdazzle-3.36.0.tar.xz",
-                    "sha256": "82b31bbf550fc62970c78bf7f9d55e5fae5b8ea13b24fe2d13c8c6039409d958"
+                    "url" : "https://download.gnome.org/sources/libdazzle/3.38/libdazzle-3.38.0.tar.xz",
+                    "sha256": "e18af28217943bcec106585298a91ec3da48aa3ad62fd0992f23f0c70cd1678f"
                 }
             ]
         },
@@ -41,8 +41,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://source.puri.sm/Librem5/libhandy/-/archive/v0.0.13/libhandy-v0.0.13.tar.bz2",
-                    "sha256" : "507f92e173a6ab9c07f612d2758de434f1feeb72ca4a9dd7de16d9a2b533d60b"
+                    "url" : "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.0.tar.xz",
+                    "sha256" : "a9398582f47b7d729205d6eac0c068fef35aaf249fdd57eea3724f8518d26699"
                 }
             ]
         },
@@ -52,8 +52,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/epiphany/3.36/epiphany-3.36.4.tar.xz",
-                    "sha256": "588a75b1588f5a509c33cf0be6a38a0f4fc1748eeb499a51d991ddef485242bf"
+                    "url" : "https://download.gnome.org/sources/epiphany/3.38/epiphany-3.38.0.tar.xz",
+                    "sha256": "228e820d7c7f8541e4db5ecc6c81b5a88bde9b1ea17cae4a5f38446f7989c552"
                 }
             ]
         }
