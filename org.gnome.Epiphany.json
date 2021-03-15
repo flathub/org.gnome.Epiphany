@@ -55,8 +55,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.3.tar.xz",
-                    "sha256" : "559bb3acc2c362488917eb72ed25bdc181f4ae26ac94d177634cc5d34c867f7a"
+                    "url" : "https://download.gnome.org/sources/libhandy/1.2/libhandy-1.2.0.tar.xz",
+                    "sha256" : "39f590ae20910e76fe1c0607b2ebe589750f45610d6aeec5c30e2ee602a20b25"
                 }
             ]
         },
@@ -66,8 +66,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/epiphany/3.38/epiphany-3.38.2.tar.xz",
-                    "sha256": "8b05f2bcc1e80ecf4a10f6f01b3285087eb4cbdf5741dffb8c0355715ef5116d"
+                    "url" : "https://download.gnome.org/sources/epiphany/3.38/epiphany-3.38.3.tar.xz",
+                    "sha256": "ce62c1fa3e442a9d6131fc884a6bc9a65cf06224c30d649c49624c2ebcb0d275"
                 }
             ]
         }
