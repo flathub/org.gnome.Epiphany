@@ -1,7 +1,7 @@
 {
     "app-id" : "org.gnome.Epiphany",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.38",
+    "runtime-version" : "40",
     "sdk" : "org.gnome.Sdk",
     "command" : "epiphany",
     "finish-args" : [
@@ -13,10 +13,20 @@
         "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--socket=wayland",
-        "--system-talk-name=org.freedesktop.GeoClue2",
-        "--talk-name=org.freedesktop.Notifications"
+        "--system-talk-name=org.freedesktop.GeoClue2"
     ],
     "modules" : [
+        {
+            "name" : "libdazzle",
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "archive",
+                    "url" : "https://download.gnome.org/sources/libdazzle/3.40/libdazzle-3.40.0.tar.xz",
+                    "sha256": "dba99a7e65fa6662c012b306e5d0f99ff3b466a46059ea7aa0104aaf65ce4ba5"
+                }
+            ]
+        },
         {
             "name" : "libportal",
             "buildsystem" : "meson",
@@ -32,42 +42,13 @@
             ]
         },
         {
-            "name" : "libdazzle",
-            "buildsystem" : "meson",
-            "sources" : [
-                {
-                    "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/libdazzle/3.38/libdazzle-3.38.0.tar.xz",
-                    "sha256": "e18af28217943bcec106585298a91ec3da48aa3ad62fd0992f23f0c70cd1678f"
-                }
-            ]
-        },
-        {
-            "name" : "libhandy",
-            "buildsystem" : "meson",
-            "config-opts" : [
-                "-Dexamples=false",
-                "-Dglade_catalog=disabled",
-                "-Dintrospection=disabled",
-                "-Dtests=false",
-                "-Dvapi=false"
-            ],
-            "sources" : [
-                {
-                    "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/libhandy/1.2/libhandy-1.2.0.tar.xz",
-                    "sha256" : "39f590ae20910e76fe1c0607b2ebe589750f45610d6aeec5c30e2ee602a20b25"
-                }
-            ]
-        },
-        {
             "name" : "epiphany",
             "buildsystem" : "meson",
             "sources" : [
                 {
-                    "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/epiphany/3.38/epiphany-3.38.3.tar.xz",
-                    "sha256": "ce62c1fa3e442a9d6131fc884a6bc9a65cf06224c30d649c49624c2ebcb0d275"
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/epiphany.git",
+                    "commit": "adeb59da5ae7d177a3bb7016bc27990e851b82ee"
                 }
             ]
         }
