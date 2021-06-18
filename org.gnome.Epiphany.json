@@ -127,9 +127,9 @@
             "buildsystem" : "meson",
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/epiphany.git",
-                    "commit": "adeb59da5ae7d177a3bb7016bc27990e851b82ee"
+                    "type" : "archive",
+                    "url" : "https://download.gnome.org/sources/epiphany/40/epiphany-40.2.tar.xz",
+                    "sha256": "75119e22065657cf70ef2b603d4f73835573bd034f1e618c0f662478fd6c6835"
                 }
             ]
         }
