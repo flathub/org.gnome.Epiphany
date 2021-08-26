@@ -62,7 +62,7 @@
                         {
                             "type": "git",
                             "url": "https://github.com/sass/sassc.git",
-                            "tag": "3.6.1"
+                            "tag": "3.6.2"
                         },
                         {
                             "type": "script",
@@ -82,7 +82,7 @@
                                 {
                                     "type": "git",
                                     "url": "https://github.com/sass/libsass.git",
-                                    "tag": "3.6.4"
+                                    "tag": "3.6.5"
                                 },
                                 {
                                     "type": "script",
@@ -117,8 +117,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/flatpak/libportal/releases/download/0.3/libportal-0.3.tar.xz",
-                    "sha256": "fd35d66357169e63e33ef46c43fdf22ddc07dbd960ec3462b58ca9ef15a65bd7"
+                    "url" : "https://github.com/flatpak/libportal/releases/download/0.4/libportal-0.4.tar.xz",
+                    "sha256": "3cd5f50907831cf236b40aa14c5a14ccbbf08828cecb3286efa82ce03cacef28"
                 }
             ]
         },
@@ -128,8 +128,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/epiphany/40/epiphany-40.2.tar.xz",
-                    "sha256": "75119e22065657cf70ef2b603d4f73835573bd034f1e618c0f662478fd6c6835"
+                    "url" : "https://download.gnome.org/sources/epiphany/40/epiphany-40.3.tar.xz",
+                    "sha256": "dad138b9f2d55de271128fca38b61f53fd980c587d29e1ba6b508fff3b19f564"
                 }
             ]
         }
