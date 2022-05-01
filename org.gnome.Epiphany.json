@@ -131,7 +131,11 @@
                 {
                     "type" : "archive",
                     "url" : "https://download.gnome.org/sources/epiphany/42/epiphany-42.2.tar.xz",
-                    "sha256": "92c02cf886d10d2ccff5de658e1a420eab31d20bb50e746d430e9535b485192d"
+                    "sha256": "92c02cf886d10d2ccff5de658e1a420eab31d20bb50e746d430e9535b485192d",
+                    "x-checker-data" : {
+                        "type" : "gnome",
+                        "name" : "epiphany"
+                    }
                 }
             ]
         }
