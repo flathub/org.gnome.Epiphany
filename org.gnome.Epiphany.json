@@ -1,10 +1,10 @@
 {
-    "app-id" : "org.gnome.Epiphany",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "epiphany",
-    "finish-args" : [
+    "app-id": "org.gnome.Epiphany",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "42",
+    "sdk": "org.gnome.Sdk",
+    "command": "epiphany",
+    "finish-args": [
         "--device=dri",
         "--filesystem=/run/.heim_org.h5l.kcm-socket",
         "--filesystem=xdg-download",
@@ -15,7 +15,7 @@
         "--socket=wayland",
         "--system-talk-name=org.freedesktop.GeoClue2"
     ],
-    "modules" : [
+    "modules": [
         {
             "name": "elementary-icons",
             "buildsystem": "meson",
@@ -37,10 +37,11 @@
                             "type": "git",
                             "url": "https://gitlab.freedesktop.org/xorg/app/xcursorgen.git",
                             "tag": "xcursorgen-1.0.7",
-                            "x-checker-data" : {
-                                "type" : "git",
-                                "tag-pattern" : "^xcursorgen-([\\d.]+)$"
-                            }
+                            "x-checker-data": {
+                                "type": "git",
+                                "tag-pattern": "^xcursorgen-([\\d.]+)$"
+                            },
+                            "commit": "291d9a052aec0ad4a315c09a9af8b451c94ed57a"
                         }
                     ]
                 }
@@ -67,10 +68,11 @@
                             "type": "git",
                             "url": "https://github.com/sass/sassc.git",
                             "tag": "3.6.2",
-                            "x-checker-data" : {
-                                "type" : "git",
-                                "tag-pattern" : "^([\\d.]+)$"
-                            }
+                            "x-checker-data": {
+                                "type": "git",
+                                "tag-pattern": "^([\\d.]+)$"
+                            },
+                            "commit": "66f0ef37e7f0ad3a65d2f481eff09d09408f42d0"
                         },
                         {
                             "type": "script",
@@ -91,10 +93,11 @@
                                     "type": "git",
                                     "url": "https://github.com/sass/libsass.git",
                                     "tag": "3.6.5",
-                                    "x-checker-data" : {
-                                        "type" : "git",
-                                        "tag-pattern" : "^([\\d.]+)$"
-                                    }
+                                    "x-checker-data": {
+                                        "type": "git",
+                                        "tag-pattern": "^([\\d.]+)$"
+                                    },
+                                    "commit": "f6afdbb9288d20d1257122e71d88e53348a53af3"
                                 },
                                 {
                                     "type": "script",
@@ -110,53 +113,53 @@
             ]
         },
         {
-            "name" : "libdazzle",
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "libdazzle",
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/libdazzle/3.44/libdazzle-3.44.0.tar.xz",
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/libdazzle/3.44/libdazzle-3.44.0.tar.xz",
                     "sha256": "3cd3e45eb6e2680cb05d52e1e80dd8f9d59d4765212f0e28f78e6c1783d18eae",
-                    "x-checker-data" : {
-                        "type" : "gnome",
-                        "name" : "libdazzle"
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "libdazzle"
                     }
                 }
             ]
         },
         {
-            "name" : "libportal",
-            "buildsystem" : "meson",
-            "config-opts" : [
+            "name": "libportal",
+            "buildsystem": "meson",
+            "config-opts": [
                 "-Dbackends=gtk3",
                 "-Dintrospection=false",
                 "-Ddocs=false"
             ],
-            "sources" : [
+            "sources": [
                 {
-                    "type" : "archive",
-                    "url" : "https://github.com/flatpak/libportal/releases/download/0.6/libportal-0.6.tar.xz",
+                    "type": "archive",
+                    "url": "https://github.com/flatpak/libportal/releases/download/0.6/libportal-0.6.tar.xz",
                     "sha256": "88a12c3ba71bc31acff7238c280de697d609cebc50830c3766776ec35abc6566",
-                    "x-checker-data" : {
-                        "type" : "json",
-                        "url" : "https://api.github.com/repos/flatpak/libportal/releases/latest",
-                        "version-query" : ".tag_name",
-                        "url-query" : ".assets[] | select(.name==\"libportal-\" + $version + \".tar.xz\") | .browser_download_url"
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/flatpak/libportal/releases/latest",
+                        "version-query": ".tag_name",
+                        "url-query": ".assets[] | select(.name==\"libportal-\" + $version + \".tar.xz\") | .browser_download_url"
                     }
                 }
             ]
         },
         {
-            "name" : "epiphany",
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "epiphany",
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/epiphany/42/epiphany-42.2.tar.xz",
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/epiphany/42/epiphany-42.2.tar.xz",
                     "sha256": "92c02cf886d10d2ccff5de658e1a420eab31d20bb50e746d430e9535b485192d",
-                    "x-checker-data" : {
-                        "type" : "gnome",
-                        "name" : "epiphany"
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "epiphany"
                     }
                 }
             ]
