@@ -1,12 +1,11 @@
 {
     "app-id": "org.gnome.Epiphany",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "command": "epiphany",
     "finish-args": [
         "--device=dri",
-        "--filesystem=/run/.heim_org.h5l.kcm-socket",
         "--filesystem=xdg-download",
         "--share=ipc",
         "--share=network",
