@@ -35,12 +35,12 @@
                         {
                             "type": "git",
                             "url": "https://gitlab.freedesktop.org/xorg/app/xcursorgen.git",
-                            "tag": "xcursorgen-1.0.7",
+                            "tag": "xcursorgen-1.0.8",
                             "x-checker-data": {
                                 "type": "git",
                                 "tag-pattern": "^xcursorgen-([\\d.]+)$"
                             },
-                            "commit": "291d9a052aec0ad4a315c09a9af8b451c94ed57a"
+                            "commit": "21303eac3b67f39c24036cdd65860a223e779e5b"
                         }
                     ]
                 }
