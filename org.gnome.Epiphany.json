@@ -112,6 +112,17 @@
             ]
         },
         {
+            "name": "granite",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/elementary/granite.git",
+                    "commit": "e7447e373fa1d2906af4bfcebce30c6193ddaa8f"
+                }
+            ]
+        },
+        {
             "name": "libportal",
             "buildsystem": "meson",
             "config-opts": [
@@ -136,6 +147,9 @@
         {
             "name": "epiphany",
             "buildsystem": "meson",
+            "config-opts": [
+                "-Dgranite=enabled"
+            ],
             "sources": [
                 {
                     "type": "archive",
