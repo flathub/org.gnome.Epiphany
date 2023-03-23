@@ -53,7 +53,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/elementary/stylesheet.git",
-                    "commit": "12fa3d4474a582e783e6a7d4a829467b53afc414"
+                    "commit": "8df928c8ea02656a1a2a9d10fc46de4277cd6f15"
                 }
             ],
             "modules": [
