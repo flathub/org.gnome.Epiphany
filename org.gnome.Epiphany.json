@@ -153,8 +153,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/epiphany/44/epiphany-44.3.tar.xz",
-                    "sha256": "f5e904b2e5102104d8b7fe3a615034add78de03116492b54cbdebca280bdd899",
+                    "url": "https://download.gnome.org/sources/epiphany/44/epiphany-44.4.tar.xz",
+                    "sha256": "e5f8865b661b75421dc18c812ef78aa02e7335250a13d9d802df96db3201d371",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "epiphany"
