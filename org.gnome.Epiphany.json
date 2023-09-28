@@ -35,6 +35,7 @@
                     "url": "https://github.com/GStreamer/gstreamer-vaapi",
                     "commit": "c3ddb29cb2860374f9efbed495af7b0eead08312"
                 }
+            }
             ],
             "modules": [
                 {
