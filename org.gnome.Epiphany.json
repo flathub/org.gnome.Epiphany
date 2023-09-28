@@ -14,7 +14,7 @@
         "--socket=wayland",
         "--system-talk-name=org.freedesktop.GeoClue2"
     ],
-    "modules": [
+   "modules": [
         {
             "name": "elementary-icons",
             "buildsystem": "meson",
@@ -143,6 +143,22 @@
                     }
                 }
             ]
+        },
+        {
+           "name": "gstreamer",
+             "cleanup": [
+               "*"
+          ],
+           "config-opts": [
+              "-Dvaapi=enabled"
+            ],
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer",
+                    "commit": "1.22.6"
+                }]
         },
         {
             "name": "epiphany",
