@@ -12,7 +12,8 @@
         "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--socket=wayland",
-        "--system-talk-name=org.freedesktop.GeoClue2"
+        "--system-talk-name=org.freedesktop.GeoClue2",
+        "--env=GST_PLUGIN_FEATURE_RANK=vah264dec:MAX,vavp8dec:MAX,vavp9dec:MAX,vaav1dec:MAX"
     ],
     "modules": [
         {
