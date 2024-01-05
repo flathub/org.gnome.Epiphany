@@ -91,12 +91,12 @@
                                 {
                                     "type": "git",
                                     "url": "https://github.com/sass/libsass.git",
-                                    "tag": "3.6.5",
+                                    "tag": "3.6.6",
                                     "x-checker-data": {
                                         "type": "git",
                                         "tag-pattern": "^([\\d.]+)$"
                                     },
-                                    "commit": "f6afdbb9288d20d1257122e71d88e53348a53af3"
+                                    "commit": "7037f03fabeb2b18b5efa84403f5a6d7a990f460"
                                 },
                                 {
                                     "type": "script",
@@ -153,8 +153,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/epiphany/45/epiphany-45.1.tar.xz",
-                    "sha256": "7c994ef34ecd60e915de331ee123c08938f9623cefada6d50b99e3c9c5ad8135",
+                    "url": "https://download.gnome.org/sources/epiphany/45/epiphany-45.2.tar.xz",
+                    "sha256": "79c71460bffefccef5e67be3fb5fca657853e8216cb626399d2b950ce0320ddc",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "epiphany"
