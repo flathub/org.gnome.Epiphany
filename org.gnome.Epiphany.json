@@ -11,8 +11,7 @@
         "--share=network",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
-        "--socket=wayland",
-        "--system-talk-name=org.freedesktop.GeoClue2"
+        "--socket=wayland"
     ],
     "modules": [
         {
