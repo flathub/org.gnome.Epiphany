@@ -21,7 +21,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/elementary/icons.git",
-                    "commit": "5b7ffe85cded2fa3ce682510706601c1289da004"
+                    "tag": "8.1.0",
+                    "commit": "241be59c7f75ba186d0beba376ae44574f52372b",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
                 }
             ],
             "modules": [
@@ -35,11 +40,11 @@
                             "type": "git",
                             "url": "https://gitlab.freedesktop.org/xorg/app/xcursorgen.git",
                             "tag": "xcursorgen-1.0.9",
+                            "commit": "3d0909b630ca82401489411c9b496de14f664c55",
                             "x-checker-data": {
                                 "type": "git",
                                 "tag-pattern": "^xcursorgen-([\\d.]+)$"
-                            },
-                            "commit": "3d0909b630ca82401489411c9b496de14f664c55"
+                            }
                         }
                     ]
                 }
@@ -52,7 +57,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/elementary/stylesheet.git",
-                    "commit": "8df928c8ea02656a1a2a9d10fc46de4277cd6f15"
+                    "tag": "8.2.1",
+                    "commit": "5bd252f584929be05e3a0cef23aba4d006c3c133",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
                 }
             ],
             "modules": [
@@ -117,7 +127,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/elementary/granite.git",
-                    "commit": "e7447e373fa1d2906af4bfcebce30c6193ddaa8f"
+                    "tag": "7.6.0",
+                    "commit": "065ba1f245b60ef867a6ca145e0891cf84eddcc7",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
                 }
             ]
         },
