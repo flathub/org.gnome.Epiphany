@@ -123,6 +123,10 @@
         {
             "name": "granite",
             "buildsystem": "meson",
+            "config-opts": [
+                "-Dintrospection=false",
+                "-Ddemo=false"
+            ],
             "sources": [
                 {
                     "type": "git",
