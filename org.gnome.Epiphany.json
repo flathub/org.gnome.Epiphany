@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Epiphany",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "epiphany",
     "finish-args": [
@@ -171,8 +171,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/epiphany/49/epiphany-49.4.tar.xz",
-                    "sha256": "d7326b08887f7e247dba86b4ed5333db338c2501d4b82160c46436d942633b7d",
+                    "url": "https://download.gnome.org/sources/epiphany/50/epiphany-50.0.tar.xz",
+                    "sha256": "474dc6d0a663e8d890b8433d9b49f83164308d53b7cc8df82626aaf7d4105a3d",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "epiphany"
