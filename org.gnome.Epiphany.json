@@ -171,8 +171,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/epiphany/50/epiphany-50.5.tar.xz",
-                    "sha256": "825058b703457871097271a4ebbe6720d89a2a7eeee6c99a36b8bb2d605ea2eb",
+                    "url": "https://download.gnome.org/sources/epiphany/50/epiphany-50.6.tar.xz",
+                    "sha256": "458222a8694cfc914e7a2d6de9879067001a8d65e00a907d96112059c67ad446",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "epiphany"
