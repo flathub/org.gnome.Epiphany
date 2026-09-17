@@ -163,6 +163,27 @@
             ]
         },
         {
+            "name" : "libpwquality",
+            "buildsystem" : "autotools",
+            "config-opts" : [
+                "--disable-python-bindings",
+                "--with-securedir=/app/lib/security"
+            ],
+            "sources" : [
+                {
+                    "type" : "archive",
+                    "url" : "https://github.com/libpwquality/libpwquality/releases/download/libpwquality-1.4.5/libpwquality-1.4.5.tar.bz2",
+                    "sha256" : "6fcf18b75d305d99d04d2e42982ed5b787a081af2842220ed63287a2d6a10988",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/libpwquality/libpwquality/releases/latest",
+                        "version-query": ".tag_name",
+                        "url-query": ".assets[] | select(.name==\"libpwquality-\" + $version + \".tar.bz2\") | .browser_download_url"
+                    }
+                }
+            ]
+        },
+        {
             "name": "epiphany",
             "buildsystem": "meson",
             "config-opts": [
