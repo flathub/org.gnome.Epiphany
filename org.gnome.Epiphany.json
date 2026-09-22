@@ -6,12 +6,14 @@
     "command": "epiphany",
     "finish-args": [
         "--device=dri",
+        "--device=input",
         "--filesystem=xdg-download",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
-        "--socket=wayland"
+        "--socket=wayland",
+        "--require-version=1.16.0"
     ],
     "modules": [
         {
