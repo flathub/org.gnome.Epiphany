@@ -157,7 +157,7 @@
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/libpwquality/libpwquality/releases/latest",
-                        "version-query": ".tag_name",
+                        "version-query": ".tag_name | sub(\"^libpwquality-\"; \"\")",
                         "url-query": ".assets[] | select(.name==\"libpwquality-\" + $version + \".tar.bz2\") | .browser_download_url"
                     }
                 }
